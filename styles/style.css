@@ -1,9 +1,33 @@
 @font-face {
-  font-family: fontello;
+  font-family: "fontello";
   src: url(../assets/fonts/fontello.eot) format("eot"),
     url(../assets/fonts/fontello.ttf ) format("ttf"),
     url(../assets/fonts/fontello.woff ) format("woff"),
     url(../assets/fonts/fontello.woff2 ) format("woff2");
+}
+
+@font-face {
+  font-family: "MavenPro";
+  src: local("MavenPro"),
+       local("MavenPro-Regular"),
+       url(../assets/fonts/MavenPro-Regular.ttf ) format("ttf"),
+       url(../assets/fonts/MavenPro-Regular.woff ) format("woff");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Regular"),
+       url(../assets/fonts/Lato-Regular.ttf ) format("ttf"),
+       url(../assets/fonts/Lato-Regular.woff ) format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato-Bold"),
+       url(../assets/fonts/Lato-Bold.ttf ) format("ttf"),
+       url(../assets/fonts/Lato-Bold.woff ) format("woff");
+  font-weight: 700;
 }
 
 :root {
